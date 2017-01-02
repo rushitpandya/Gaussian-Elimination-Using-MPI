@@ -1,0 +1,6 @@
+Here are the steps for compiling and running gauss_mpi.c
+1)Navigate to hw3 folder.
+2)Run the following command " mpicc -o gauss_mpi gauss_mpi.c"
+3)Then Run the command " mpirun -np <no of processors per node> gauss_mpi <no of dimensions> "
+4)Note the elapsed time.
+
